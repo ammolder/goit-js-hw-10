@@ -25,7 +25,6 @@ function onInputSearchCountry(e) {
 function onFetchSuccess(data) {
   clearListCountry();
   clearCountry();
-  console.log(data);
   if (data.length === 1) {
     clearListCountry();
     clearCountry();
